@@ -1,6 +1,6 @@
 ﻿namespace Cadastro_de_Clientes
 {
-    partial class Form1
+    partial class CadastroCliente
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -47,22 +47,26 @@
             // 
             // Enviar
             // 
+            this.Enviar.BackColor = System.Drawing.Color.Green;
+            this.Enviar.ForeColor = System.Drawing.Color.White;
             this.Enviar.Location = new System.Drawing.Point(626, 398);
             this.Enviar.Name = "Enviar";
             this.Enviar.Size = new System.Drawing.Size(177, 40);
             this.Enviar.TabIndex = 0;
             this.Enviar.Text = "Enviar";
-            this.Enviar.UseVisualStyleBackColor = true;
+            this.Enviar.UseVisualStyleBackColor = false;
             this.Enviar.Click += new System.EventHandler(this.button1_Click);
             // 
             // Fechar
             // 
+            this.Fechar.BackColor = System.Drawing.Color.Red;
+            this.Fechar.ForeColor = System.Drawing.Color.White;
             this.Fechar.Location = new System.Drawing.Point(431, 398);
             this.Fechar.Name = "Fechar";
             this.Fechar.Size = new System.Drawing.Size(177, 40);
             this.Fechar.TabIndex = 1;
             this.Fechar.Text = "Fechar";
-            this.Fechar.UseVisualStyleBackColor = true;
+            this.Fechar.UseVisualStyleBackColor = false;
             this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // label1
@@ -177,7 +181,7 @@
             this.labelMenssagem4.Size = new System.Drawing.Size(0, 13);
             this.labelMenssagem4.TabIndex = 8;
             // 
-            // Form1
+            // CadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -197,7 +201,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Fechar);
             this.Controls.Add(this.Enviar);
-            this.Name = "Form1";
+            this.Name = "CadastroCliente";
             this.Text = "Cadastro de Clientes";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
